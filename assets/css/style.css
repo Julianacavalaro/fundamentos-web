@@ -1,0 +1,23 @@
+/* Estilos da página index.html */
+.center { /* . para classe */
+    text-align: center;
+}
+.flex-container {
+    display: flex;
+    background-color: DodgerBlue; 
+
+}
+.flex-container > div {
+background-color: #f1f1f1;
+margin: 10px;
+padding: 20px;
+font-size: 30px;
+
+}
+.container {
+    display:flex;
+    flex-flow: row; /* para dividir em colunas*/
+    justify-content: center; /* alinhar na horizontal*/
+    align-items: center; /* alinhar na verticar*/
+}
+/* Estilos da página contato.html */
