@@ -2,6 +2,9 @@
 .center { /* . para classe */
     text-align: center;
 }
+.justify {
+    text-align: justify;
+}
 .flex-container {
     display: flex;
     background-color: DodgerBlue; 
@@ -20,4 +23,36 @@ font-size: 30px;
     justify-content: center; /* alinhar na horizontal*/
     align-items: center; /* alinhar na verticar*/
 }
+#menu li{
+    display:inline;
+    padding: 15px;   
+}
+#menu li a {
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+}
+#menu li a:hover {
+    color: gray;
+}
+.p-30 {
+    padding: 30px;
+}
+.br-50 {
+    border-radius: 50%;
+}
+.wh-400 {
+    width: 400px;
+    height:400px;
+}
+.tm-social {
+    width: 50px;
+    height:50px;
+}
+.mb-50 {
+    margin-bottom: 50px;
+}
 /* Estilos da página contato.html */
+.ml-50 {
+    margin-left: 50px;
+}

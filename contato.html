@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <ul>
+    <ul id="menu">
         <li>
             <a href="index.html"> Home</a>
             <!--target="_blanck" para abrir em uma nova pagina-->
@@ -19,39 +19,60 @@
             <a href="contato.html"> Contato</a>
         </li>
     </ul>
-    <h1>Entre em contato comigo</h1>
+    <h1 class="center">Entre em contato comigo</h1>
 
-    <form>
-        <label for="nome">Nome:</label><br>
-        <input type="text" id="nome">
-        <br>
-        <br>
-        <label for="email">E-mail:</label><br>
-        <input type="email" id="email">
-        <br>
-        <br>
-        <label for="assunto">Assunto:</label><br>
-        <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea> 
-        <br>
-        <br>
-        <button>Enviar</button>
+    <div class="container mb-50">
+        <div>
+            
+            <form>
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome">
+                <br>
+                <br>
+                <label for="email">E-mail:</label><br>
+                <input type="email" id="email">
+                <br>
+                <br>
+                <label for="assunto">Assunto:</label><br>
+                <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
+                <br>
+                <br>
+                <button>Enviar</button>
+            </form>
+      
+        </div>
 
-        <h2>Endereço</h2>
-        <p>Praça da blíblia</p>
-        <p>Mauá - SP</p>
-
-
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7308.488592250548!2d-46.46525332783483!3d-23.6672200861094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce6944adcf6cbf%3A0x51116f85862e7e75!2sPra%C3%A7a%20da%20Biblia%20-%20RP1%20(Regi%C3%B5es%20de%20Planejamento)%2C%20Mau%C3%A1%20-%20SP%2C%2009310-230!5e0!3m2!1spt-BR!2sbr!4v1605897488145!5m2!1spt-BR!2sbr" 
-        width="450" 
-        height="300" 
-        frameborder="0" 
-        style="border:0;" 
-        allowfullscreen="" 
-        aria-hidden="false" 
+        <div class="ml-50">
+           
+            <p>Praça da blíblia</p>
+            <p>Mauá - SP</p>
+            <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7308.488592250548!2d-46.46525332783483!3d-23.6672200861094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce6944adcf6cbf%3A0x51116f85862e7e75!2sPra%C3%A7a%20da%20Biblia%20-%20RP1%20(Regi%C3%B5es%20de%20Planejamento)%2C%20Mau%C3%A1%20-%20SP%2C%2009310-230!5e0!3m2!1spt-BR!2sbr!4v1605897488145!5m2!1spt-BR!2sbr"
+        width="450" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
         tabindex="0"></iframe>
+        </div>
+    </div>
+    <hr>
+    <footer>
+        <div class="container">
+            <a href="https://www.facebook.com/">
+                <img class="tm-social p-30" src="assets/img/facebook.png" alt="Logo do facebook">
+            </a>
+            <a href="https://www.linkedin.com/in/juliana-cavalaro/">
+                <img class="tm-social p-30" src="assets/img/linkedin.png" alt="Logo do linkedin">
+            </a>
+            <a href="https://www.instagram.com/?hl=pt-br">
+                <img class="tm-social p-30" src="assets/img/instagram.png" alt="Logo do instagram">
+            </a>
+           
+        </div>
+        <p class="center">Todos os direitos reservados para Juliana Cavalaro &copy</p>
+    </footer>
+
+    
 
 
-    </form>
+
 
 </body>
 
